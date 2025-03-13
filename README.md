@@ -11,8 +11,8 @@ This is a simple FastAPI-based game of Rock-Paper-Scissors-Lizard-Spock. The app
 ### Installation & Running Locally
 1. **Clone the repository**
    ```sh
-   git clone <repo-url>
-   cd fastapi-game
+   git clone https://github.com/sljivkov/RPSLS.git
+   cd RPSLS
    ```
 
 2. **Create a virtual environment and install dependencies**
@@ -24,7 +24,7 @@ This is a simple FastAPI-based game of Rock-Paper-Scissors-Lizard-Spock. The app
 
 3. **Run the FastAPI application**
    ```sh
-   uvicorn app.main:app --host 0.0.0.0 --port 8000
+   uvicorn main:app --host 0.0.0.0 --port 8000
    ```
 
 
